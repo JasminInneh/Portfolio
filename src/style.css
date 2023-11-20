@@ -3,13 +3,13 @@ body {
 }
 
 .banner {
-  font-family: "PT Serif", serif;
+  font-family: "Noto Serif", serif;
   color: red;
   display: flex;
   justify-content: center;
   margin: 150px !important;
-  font-weight: 700;
-  font-size: 200px;
+  font-weight: 600;
+  font-size: 230px;
   margin-top: -116px !important;
 }
 
@@ -21,6 +21,7 @@ body {
   margin: 120px;
   color: red;
   margin-top: 32px !important;
+  margin-left: -30px;
 }
 
 img {
@@ -33,4 +34,19 @@ img {
   margin-right: 126px;
   margin-top: -291px;
   width: -45px;
+}
+
+.text-under-image {
+  color: red;
+  display: flex;
+  justify-content: end;
+}
+.home-page-paragraph {
+  color: red;
+  font-size: serif;
+  white-space: pre-wrap;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
 }
