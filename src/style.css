@@ -1,3 +1,36 @@
 body {
   background-color: #eeee;
 }
+
+.banner {
+  font-family: "PT Serif", serif;
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin: 150px !important;
+  font-weight: 700;
+  font-size: 200px;
+  margin-top: -116px !important;
+}
+
+.email {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 120px;
+  color: red;
+  margin-top: 32px !important;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  height: 700px;
+  float: right;
+  overflow: visible;
+  margin-right: 126px;
+  margin-top: -291px;
+  width: -45px;
+}
