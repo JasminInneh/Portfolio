@@ -4,7 +4,7 @@ body {
 
 .banner {
   font-family: "Noto Serif", serif;
-  color: red;
+  color: #ff340a;
   display: flex;
   justify-content: center;
   margin: 150px !important;
@@ -19,7 +19,7 @@ body {
   font-weight: 500;
   font-size: 25px;
   margin: 120px;
-  color: red;
+  color: #ff340a;
   margin-top: 32px !important;
   margin-left: -30px;
 }
@@ -33,20 +33,24 @@ img {
   overflow: visible;
   margin-right: 126px;
   margin-top: -291px;
-  width: -45px;
+  width: -50px !important;
 }
 
 .text-under-image {
-  color: red;
+  color: #ff340a;
   display: flex;
   justify-content: end;
 }
 .home-page-paragraph {
-  color: red;
-  font-size: serif;
-  white-space: pre-wrap;
+  color: #ff340a;
+  font-family: serif;
   width: 50%;
   display: flex;
   justify-content: start;
-  font-size: 20px;
+  font-size: 26px;
+}
+
+.About-me-text {
+  margin-top: -110px;
+  margin-left: 40px;
 }
