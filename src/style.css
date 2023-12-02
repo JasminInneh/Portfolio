@@ -38,21 +38,32 @@ img {
   width: -50px !important;
 }
 
-.text-under-image {
+.Image-caption {
   color: #ff340a;
-  display: flex;
-  justify-content: end;
+  /* display: flex; */
+  /* justify-content: end; */
 }
+
+#Bold-caption {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 40px;
+}
+#cursive-caption {
+  font-family: "Rouge Script", cursive;
+  font-size: 40px;
+}
+
 .home-page-paragraph {
   color: #ff340a;
-  font-family: serif;
-  padding-right: 30px;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 26px;
+  padding-right: 50px;
 }
 
 .About-me-text {
   margin-top: -110px;
   margin-left: 40px;
+  padding-right: 30px;
 }
 
 #nav-color {
