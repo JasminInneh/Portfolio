@@ -13,6 +13,9 @@ body {
   margin-top: -116px !important;
 }
 
+#banner-text {
+  z-index: 1;
+}
 .email {
   font-family: "PT Serif", serif;
   font-style: italic;
@@ -29,7 +32,6 @@ img {
   object-fit: cover;
   mix-blend-mode: normal;
   height: 700px;
-  float: right;
   overflow: visible;
   margin-right: 126px;
   margin-top: -291px;
@@ -44,9 +46,7 @@ img {
 .home-page-paragraph {
   color: #ff340a;
   font-family: serif;
-  width: 50%;
-  display: flex;
-  justify-content: start;
+  padding-right: 30px;
   font-size: 26px;
 }
 
