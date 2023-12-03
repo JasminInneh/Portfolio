@@ -20,7 +20,7 @@ body {
   font-family: "PT Serif", serif;
   font-style: italic;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 35px;
   margin: 120px;
   color: #ff340a;
   margin-top: 32px !important;
@@ -30,18 +30,15 @@ body {
 img {
   display: block;
   object-fit: cover;
-  mix-blend-mode: normal;
   height: 700px;
   overflow: visible;
-  margin-right: 126px;
-  margin-top: -291px;
-  width: -50px !important;
+  /* margin-right: 126px; */
+  margin-top: -353px;
+  /* width: -50px !important; */
 }
 
 .Image-caption {
   color: #ff340a;
-  /* display: flex; */
-  /* justify-content: end; */
 }
 
 #Bold-caption {
@@ -62,7 +59,7 @@ img {
 
 .About-me-text {
   margin-top: -110px;
-  margin-left: 40px;
+  margin-left: 10px;
   padding-right: 30px;
 }
 
