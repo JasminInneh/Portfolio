@@ -27,7 +27,7 @@ body {
   margin-left: -30px;
 }
 
-img {
+#profile-image {
   display: block;
   object-fit: cover;
   height: 700px;
@@ -42,27 +42,64 @@ img {
 }
 
 #Bold-caption {
-  font-family: "Libre Franklin", sans-serif;
+  /* font-family: "Libre Franklin", sans-serif; */
   font-size: 40px;
+  margin-bottom: -0.5rem !important;
+  font-weight: 400;
 }
 #cursive-caption {
-  font-family: "Rouge Script", cursive;
-  font-size: 40px;
+  font-family: cursive; /* font-family: "Rouge Script", cursive; */
+  font-size: 35px;
+  font-weight: 200;
 }
 
 .home-page-paragraph {
   color: #ff340a;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   padding-right: 50px;
 }
 
 .About-me-text {
   margin-top: -110px;
   margin-left: 10px;
-  padding-right: 30px;
+  padding-right: 105px;
 }
 
 #nav-color {
   background-color: #eeee;
+}
+.recent-work {
+  font-size: 1.75rem;
+  color: #ff340a;
+  margin-right: 120px;
+  margin-top: 90px;
+}
+#page-two {
+  background: #ffffff;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 2%;
+  padding-top: 50px;
+}
+
+.select-works-text {
+  color: #ff340a;
+}
+
+a:link {
+  color: #ff340a;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(203, 132, 143);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(118, 4, 4);
+  background-color: transparent;
+  text-decoration: underline;
 }
