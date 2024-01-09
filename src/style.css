@@ -93,7 +93,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: rgb(203, 132, 143);
+  color: rgb(232, 58, 84);
   background-color: transparent;
   text-decoration: none;
 }
@@ -102,4 +102,7 @@ a:hover {
   color: rgb(118, 4, 4);
   background-color: transparent;
   text-decoration: underline;
+}
+.contact-form {
+  background-color: #ecf1ef;
 }
